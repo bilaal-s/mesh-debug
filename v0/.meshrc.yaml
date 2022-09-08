@@ -1,0 +1,9 @@
+sources:
+  - name: Kapi
+    handler:
+      graphql:
+        endpoint: "{env.GRAPHQL_URL}"
+        introspection: ./schema.graphql
+
+additionalTypeDefs:
+  - ./schema-extend.graphql

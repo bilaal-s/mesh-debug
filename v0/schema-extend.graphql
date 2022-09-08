@@ -1,0 +1,4 @@
+extend type Mutation {
+  GetRelatedNumbers(number: Int!): GetRelatedNumbersResponse
+    @auditByReading(field: "numbers")
+}

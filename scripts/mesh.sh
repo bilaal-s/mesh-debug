@@ -1,0 +1,1 @@
+DEBUG=1 graphql-inspector introspect ./index.ts --write src/schema.v0.graphql --require ts-node/register

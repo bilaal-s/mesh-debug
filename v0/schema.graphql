@@ -1,0 +1,9 @@
+directive @auditByNumber(field: String!) on FIELD_DEFINITION
+
+type GetRelatedNumbersResponse {
+  numbers: [Int!]!
+}
+
+type Mutation {
+  GetRelatedNumbers(number: Int!): GetRelatedNumbersResponse
+}
