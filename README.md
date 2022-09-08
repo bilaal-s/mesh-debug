@@ -1,3 +1,9 @@
+### Installation
+
+```sh
+yarn
+```
+
 ### Script to run mesh
 
 ```sh
